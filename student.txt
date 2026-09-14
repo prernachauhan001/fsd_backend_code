@@ -1,3 +1,0 @@
-Name: Prerna Chauhan
-Email: prernachauhan8920@gmail.com
-Course: Node.js

@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/prernachauhan001/fsd_backend_code/issues"
   },
-  "homepage": "https://github.com/prernachauhan001/fsd_backend_code#readme"
+  "homepage": "https://github.com/prernachauhan001/fsd_backend_code#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }

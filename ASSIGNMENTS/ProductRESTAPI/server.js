@@ -1,7 +1,14 @@
-const express = require("express");
+import express from "express";
 
 const app = express();
-const PORT = 3000;
+
+app.get("/", (req, res) => {
+    res.send("Hello! Server is working.");
+});
+
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
+});
 
 app.use(express.json());
 
@@ -202,6 +209,6 @@ app.delete("/api/products/:id", (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+app.listen(3000, () => {
+  console.log(`Server running at http://localhost:3000`);
 });

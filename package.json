@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/prernachauhan001/fsd_backend_code#readme",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1"
   }
 }

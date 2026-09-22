@@ -1,0 +1,9 @@
+{
+  "name": "event-demo",
+  "version": "1.0.0",
+  "description": "Simulate DOM-like event handling in Node.js",
+  "main": "event.js",
+  "scripts": {
+    "start": "node event.js"
+  }
+}
